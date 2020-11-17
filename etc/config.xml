@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+	<default>
+		<carriers>
+			<dummy50>
+				<model>Funami\EmotionShippingMethods\Model\Carrier\Dummy50</model>
+				<active>0</active>
+				<title>dummy50</title>
+				<name>dummy50</name>
+				<price>0.00</price>
+				<specificerrmsg>This shipping method is not available. To use this shipping method, please contact us.</specificerrmsg>
+				<sallowspecific>0</sallowspecific>
+			</dummy50>
+			<dummy100>
+				<model>Funami\EmotionShippingMethods\Model\Carrier\Dummy100</model>
+				<active>0</active>
+				<title>dummy100</title>
+				<name>dummy100</name>
+				<price>0.00</price>
+				<specificerrmsg>This shipping method is not available. To use this shipping method, please contact us.</specificerrmsg>
+				<sallowspecific>0</sallowspecific>
+			</dummy100>
+		</carriers>
+	</default>
+</config>

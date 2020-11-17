@@ -1,0 +1,22 @@
+{
+    "name": "funami/module-emotionshippingmethods",
+    "description": "MAIN TASK. Create shipping methods",
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "Dmitrij Rebrov",
+            "email": "leayuda@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Funami\\EmotionShippingMethods\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
